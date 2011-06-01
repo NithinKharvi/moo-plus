@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Moo.Controls.Test
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Yalamo.Gui.YPage
     {
         public Form1()
         {
@@ -26,6 +26,7 @@ namespace Moo.Controls.Test
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ToolStripManager.Renderer = new Yalamo.Gui.Office2007Renderer();
             projectBrowser1.BuildNodes(@"c:\\fakep\",
                 "sample.mpr", 
                 "sample");

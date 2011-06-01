@@ -35,7 +35,9 @@
             this.PluginVersion = new System.Windows.Forms.Label();
             this.PluginAuthor = new System.Windows.Forms.Label();
             this.SuspendLayout();
-
+            // 
+            // Okbt
+            // 
             this.Okbt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Okbt.Location = new System.Drawing.Point(300, 164);
             this.Okbt.Name = "Okbt";
@@ -48,7 +50,7 @@
             // 
             this.PluginWebsite.AutoSize = true;
             this.PluginWebsite.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PluginWebsite.Location = new System.Drawing.Point(208, 107);
+            this.PluginWebsite.Location = new System.Drawing.Point(9, 60);
             this.PluginWebsite.Name = "PluginWebsite";
             this.PluginWebsite.Size = new System.Drawing.Size(114, 15);
             this.PluginWebsite.TabIndex = 3;
@@ -59,12 +61,12 @@
             // PluginDescription
             // 
             this.PluginDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PluginDescription.Location = new System.Drawing.Point(3, 30);
+            this.PluginDescription.Location = new System.Drawing.Point(12, 96);
             this.PluginDescription.Multiline = true;
             this.PluginDescription.Name = "PluginDescription";
             this.PluginDescription.ReadOnly = true;
             this.PluginDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.PluginDescription.Size = new System.Drawing.Size(200, 162);
+            this.PluginDescription.Size = new System.Drawing.Size(282, 91);
             this.PluginDescription.TabIndex = 4;
             this.PluginDescription.Text = "sample description";
             // 
@@ -72,7 +74,7 @@
             // 
             this.PluginVersion.AutoSize = true;
             this.PluginVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PluginVersion.Location = new System.Drawing.Point(208, 33);
+            this.PluginVersion.Location = new System.Drawing.Point(12, 9);
             this.PluginVersion.Name = "PluginVersion";
             this.PluginVersion.Size = new System.Drawing.Size(74, 15);
             this.PluginVersion.TabIndex = 5;
@@ -83,7 +85,7 @@
             // 
             this.PluginAuthor.AutoSize = true;
             this.PluginAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PluginAuthor.Location = new System.Drawing.Point(208, 61);
+            this.PluginAuthor.Location = new System.Drawing.Point(12, 33);
             this.PluginAuthor.Name = "PluginAuthor";
             this.PluginAuthor.Size = new System.Drawing.Size(152, 15);
             this.PluginAuthor.TabIndex = 6;
@@ -106,16 +108,10 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "IPAbout";
-            this.ShowIcon = true;
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IPAbout";
-            this.Controls.SetChildIndex(this.PluginWebsite, 0);
-            this.Controls.SetChildIndex(this.PluginDescription, 0);
-            this.Controls.SetChildIndex(this.PluginVersion, 0);
-            this.Controls.SetChildIndex(this.Okbt, 0);
-            this.Controls.SetChildIndex(this.PluginAuthor, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

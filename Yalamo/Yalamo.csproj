@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\GraphicsExtension.cs" />
+    <Compile Include="Core\Localisation.cs" />
     <Compile Include="Extensibility\IPAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,7 +155,13 @@
     </Compile>
     <Compile Include="Gui\Dock\Win32\Enums.cs" />
     <Compile Include="Gui\Dock\Win32\NativeMethods.cs" />
+    <Compile Include="Gui\Office2007ColorTable.cs" />
+    <Compile Include="Gui\Office2007Helpers.cs" />
+    <Compile Include="Gui\Office2007Renderer.cs" />
     <Compile Include="Gui\YForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\YPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Helpers\XMail.cs" />

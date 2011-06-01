@@ -112,6 +112,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
+            this.PbxBottom.SuspendLayout();
             this.Preferencetab.SuspendLayout();
             this.appearancetab.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -125,12 +126,31 @@
             this.buildtooltab.SuspendLayout();
             this.SuspendLayout();
             // 
+            // PbxLeft
+            // 
+            this.PbxLeft.Size = new System.Drawing.Size(200, 0);
+            // 
+            // PbxTop
+            // 
+            this.PbxTop.Size = new System.Drawing.Size(604, 50);
+            // 
+            // PbxRight
+            // 
+            this.PbxRight.Size = new System.Drawing.Size(200, 0);
+            // 
+            // PbxBottom
+            // 
+            this.PbxBottom.Controls.Add(this.SaveBt);
+            this.PbxBottom.Controls.Add(this.Cancel);
+            this.PbxBottom.Location = new System.Drawing.Point(0, 343);
+            this.PbxBottom.Size = new System.Drawing.Size(604, 50);
+            // 
             // Cancel
             // 
             this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Cancel.Image = global::Moo.Properties.Resources.Stop;
             this.Cancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Cancel.Location = new System.Drawing.Point(525, 342);
+            this.Cancel.Location = new System.Drawing.Point(526, 13);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 25);
             this.Cancel.TabIndex = 16;
@@ -143,7 +163,7 @@
             this.SaveBt.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.SaveBt.Image = global::Moo.Properties.Resources.Fsave;
             this.SaveBt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.SaveBt.Location = new System.Drawing.Point(444, 342);
+            this.SaveBt.Location = new System.Drawing.Point(444, 13);
             this.SaveBt.Name = "SaveBt";
             this.SaveBt.Size = new System.Drawing.Size(75, 25);
             this.SaveBt.TabIndex = 15;
@@ -555,7 +575,7 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.StatusMsg});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 371);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 321);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(604, 22);
             this.statusStrip1.SizingGrip = false;
@@ -963,15 +983,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Border.Bottom = 0;
+            this.Border.Bottom = 50;
             this.Border.Left = 0;
             this.Border.Right = 0;
             this.Border.Top = 50;
             this.ClientSize = new System.Drawing.Size(604, 393);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.Preferencetab);
-            this.Controls.Add(this.Cancel);
-            this.Controls.Add(this.SaveBt);
             this.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.HelpButton = true;
@@ -983,10 +1001,13 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preferences  ";
-            this.Controls.SetChildIndex(this.SaveBt, 0);
-            this.Controls.SetChildIndex(this.Cancel, 0);
+            this.Controls.SetChildIndex(this.PbxBottom, 0);
+            this.Controls.SetChildIndex(this.PbxRight, 0);
+            this.Controls.SetChildIndex(this.PbxTop, 0);
+            this.Controls.SetChildIndex(this.PbxLeft, 0);
             this.Controls.SetChildIndex(this.Preferencetab, 0);
             this.Controls.SetChildIndex(this.statusStrip1, 0);
+            this.PbxBottom.ResumeLayout(false);
             this.Preferencetab.ResumeLayout(false);
             this.appearancetab.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

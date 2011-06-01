@@ -32,12 +32,15 @@ namespace Yalamo.Gui
 
         #endregion
 
+        public static Color TransparencyColor=Color.FromArgb(255, 221, 220, 220);
+
         private Border border;
         private Point lastClick;
-        private PictureBox PbxLeft;
-        private PictureBox PbxTop;
-        private PictureBox PbxRight;
-        private PictureBox PbxBottom;
+
+        protected Panel PbxLeft;
+        protected Panel PbxTop;
+        protected Panel PbxRight;
+        protected Panel PbxBottom;
 
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
@@ -55,11 +58,12 @@ namespace Yalamo.Gui
 
         public YForm()
         {
+            this.TransparencyKey = YForm.TransparencyColor; 
             this.Border = new Border();
             this.Border.BorderChanged += new BorderChangedHandler(SetupBorders);
             
-            this.PbxLeft = new PictureBox();
-            this.PbxLeft.BackColor = Color.Black;
+            this.PbxLeft = new Panel();
+            this.PbxLeft.BackColor = YForm.TransparencyColor;
             this.PbxLeft.Dock = DockStyle.Left;
             this.PbxLeft.Location = new Point(0, 0);
             this.PbxLeft.Height = this.Height;
@@ -67,8 +71,8 @@ namespace Yalamo.Gui
             this.PbxLeft.MouseMove += new MouseEventHandler(YForm_MouseMove);
             this.Controls.Add(PbxLeft);
 
-            this.PbxTop = new PictureBox();
-            this.PbxTop.BackColor = Color.Black;
+            this.PbxTop = new Panel();
+            this.PbxTop.BackColor = YForm.TransparencyColor;
             this.PbxTop.Dock = DockStyle.Top;
             this.PbxTop.Location = new Point(0, 0);
             this.PbxTop.Width = this.Width;
@@ -76,8 +80,8 @@ namespace Yalamo.Gui
             this.PbxTop.MouseMove += new MouseEventHandler(YForm_MouseMove);
             this.Controls.Add(PbxTop);
 
-            this.PbxRight = new PictureBox();
-            this.PbxRight.BackColor = Color.Black;
+            this.PbxRight = new Panel();
+            this.PbxRight.BackColor = YForm.TransparencyColor;
             this.PbxRight.Dock = DockStyle.Right;
             this.PbxRight.Location = new Point(this.Width - this.border.Right - 16, 0);
             this.PbxRight.Height = this.Height;
@@ -85,8 +89,8 @@ namespace Yalamo.Gui
             this.PbxRight.MouseMove += new MouseEventHandler(YForm_MouseMove);
             this.Controls.Add(PbxRight);
 
-            this.PbxBottom = new PictureBox();
-            this.PbxBottom.BackColor = Color.Black;
+            this.PbxBottom = new Panel();
+            this.PbxBottom.BackColor = YForm.TransparencyColor;
             this.PbxBottom.Dock = DockStyle.Bottom;
             this.PbxBottom.Location = new Point(0, this.Height - this.border.Bottom - 36);
             this.PbxBottom.Width = this.Width;
@@ -170,6 +174,7 @@ namespace Yalamo.Gui
         void YForm_Init(object sender, EventArgs e)
         {
             this.SetupBorders();
+
         }
         //form draging implementation
         private void YForm_MouseDown(object sender, MouseEventArgs e)

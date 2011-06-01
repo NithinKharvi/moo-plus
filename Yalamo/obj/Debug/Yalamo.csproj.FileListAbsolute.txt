@@ -8,3 +8,13 @@ C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debu
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.pdb
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.Extensibility.IPAbout.resources
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.Properties.Resources.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\bin\Debug\Yalamo.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\bin\Debug\Yalamo.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.Extensibility.IPAbout.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.Gui.Dock.Resources.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.Gui.Dock.Strings.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.Properties.Resources.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.csproj.GenerateResource.Cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Yalamo\obj\Debug\Yalamo.pdb

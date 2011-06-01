@@ -38,7 +38,11 @@ namespace Yalamo.Extensibility
             winabout.PluginWebsite.Text = website;
             winabout.PluginDescription.Text = description;
             winabout.ShowDialog();
-        }   
+        }
+
+        
+
+  
 
     }
 }

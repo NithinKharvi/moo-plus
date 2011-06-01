@@ -10,3 +10,17 @@ C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Te
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.exe
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.exe
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\bin\Debug\Moo.Controls.Test.exe
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\bin\Debug\Moo.Controls.Test.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\bin\Debug\Moo.Controls.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\bin\Debug\Yalamo.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\bin\Debug\Moo.Controls.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\bin\Debug\Yalamo.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.Form1.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.Properties.Resources.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.csproj.GenerateResource.Cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.Form2.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls.Test\obj\Debug\Moo.Controls.Test.Form3.resources
