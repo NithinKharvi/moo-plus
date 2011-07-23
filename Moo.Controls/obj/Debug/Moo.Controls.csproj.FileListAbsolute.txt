@@ -8,3 +8,13 @@ C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\ob
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.dll
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\bin\Debug\Moo.Controls.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\bin\Debug\Moo.Controls.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.BrunchBrowser.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.FileBrowser.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.FileFounder.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.ProjectBrowser.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.csproj.GenerateResource.Cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\Moo.Controls\obj\Debug\Moo.Controls.pdb

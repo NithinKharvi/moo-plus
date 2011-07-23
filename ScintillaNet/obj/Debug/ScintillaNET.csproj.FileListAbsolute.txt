@@ -22,3 +22,15 @@ C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\ob
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.dll
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\bin\Debug\SciLexer.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\bin\Debug\ScintillaNet.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\bin\Debug\ScintillaNet.pdb
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.FindReplaceDialog.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.IncrementalSearcher.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.GoToDialog.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.Properties.Resources.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.SnippetChooser.resources
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.csproj.GenerateResource.Cache
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.dll
+C:\Users\Evansofts\Documents\Visual Studio 2008\Projects\Moo\ScintillaNet\obj\Debug\ScintillaNet.pdb

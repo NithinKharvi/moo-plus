@@ -152,15 +152,16 @@ namespace Yalamo.Gui.Dock
                             get { return m_dockStyle; }
                         }
                     }
-
+                   
                     private static Bitmap _bitmapPaneDiamond = Resources.DockIndicator_PaneDiamond;
                     private static Bitmap _bitmapPaneDiamondLeft = Resources.DockIndicator_PaneDiamond_Left;
                     private static Bitmap _bitmapPaneDiamondRight = Resources.DockIndicator_PaneDiamond_Right;
                     private static Bitmap _bitmapPaneDiamondTop = Resources.DockIndicator_PaneDiamond_Top;
                     private static Bitmap _bitmapPaneDiamondBottom = Resources.DockIndicator_PaneDiamond_Bottom;
-                    private static Bitmap _bitmapPaneDiamondFill = Resources.DockIndicator_PaneDiamond_Fill;
-                    private static Bitmap _bitmapPaneDiamondHotSpot = Resources.DockIndicator_PaneDiamond_HotSpot;
-                    private static Bitmap _bitmapPaneDiamondHotSpotIndex = Resources.DockIndicator_PaneDiamond_HotSpotIndex;
+                    private static Bitmap _bitmapPaneDiamondFill = Resources.Dockindicator_PaneDiamond_Fill;
+                    private static Bitmap _bitmapPaneDiamondHotSpot = Resources.DockIndicator_PaneDiamond_Hotspot;
+                    private static Bitmap _bitmapPaneDiamondHotSpotIndex = (Bitmap)Resources.DockIndicator_PaneDiamond_HotspotIndex;
+                    
                     private static HotSpotIndex[] _hotSpots = new HotSpotIndex[]
 			{
 				new HotSpotIndex(1, 0, DockStyle.Top),
@@ -194,7 +195,7 @@ namespace Yalamo.Gui.Dock
 
                         for (int i = _hotSpots.GetLowerBound(0); i <= _hotSpots.GetUpperBound(0); i++)
                         {
-                            if (_bitmapPaneDiamondHotSpot.GetPixel(pt.X, pt.Y) == _bitmapPaneDiamondHotSpotIndex.GetPixel(_hotSpots[i].X, _hotSpots[i].Y))
+                            if (_bitmapPaneDiamondHotSpot.GetPixel(pt.X, pt.Y) == _bitmapPaneDiamondHotSpotIndex.GetPixel(1, _hotSpots[i].Y))
                                 return _hotSpots[i].DockStyle;
                         }
 

@@ -995,6 +995,7 @@
             this.MDockArea.Location = new System.Drawing.Point(0, 28);
             this.MDockArea.Name = "MDockArea";
             this.MDockArea.Size = new System.Drawing.Size(1084, 585);
+
             dockPanelGradient1.EndColor = System.Drawing.SystemColors.ButtonFace;
             dockPanelGradient1.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             dockPanelGradient1.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;

@@ -14,7 +14,10 @@ namespace Moo.Controls.Test
         public Form1()
         {
             InitializeComponent();
+           
         }
+
+       
 
         
 

@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\GraphicsExtension.cs" />
+    <Compile Include="Extensions\GraphicsExtension.cs" />
     <Compile Include="Core\Localisation.cs" />
     <Compile Include="Extensibility\IPAbout.cs">
       <SubType>Form</SubType>
@@ -138,7 +138,11 @@
     <Compile Include="Gui\Dock\Measures.cs" />
     <Compile Include="Gui\Dock\NestedDockingStatus.cs" />
     <Compile Include="Gui\Dock\NestedPaneCollection.cs" />
-    <Compile Include="Gui\Dock\Resources.Designer.cs" />
+    <Compile Include="Gui\Dock\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Gui\Dock\SplitterBase.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -172,11 +176,6 @@
     <Compile Include="Helpers\YXml.cs" />
     <Compile Include="Core\Exceptioner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Extensibility\IPAbout.resx">
@@ -184,42 +183,40 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Gui\Dock\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Gui\Dock\Strings.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\DockIndicator_PaneDiamond.bmp" />
-    <Content Include="Resources\DockIndicator_PaneDiamond_Bottom.bmp" />
-    <Content Include="Resources\Dockindicator_PaneDiamond_Fill.bmp" />
-    <Content Include="Resources\DockIndicator_PaneDiamond_Hotspot.bmp" />
-    <Content Include="Resources\DockIndicator_PaneDiamond_HotspotIndex.bmp" />
-    <Content Include="Resources\DockIndicator_PaneDiamond_Left.bmp" />
-    <Content Include="Resources\DockIndicator_PaneDiamond_Right.bmp" />
-    <Content Include="Resources\DockIndicator_PaneDiamond_Top.bmp" />
-    <Content Include="Resources\DockIndicator_PanelBottom.bmp" />
-    <Content Include="Resources\DockIndicator_PanelBottom_Active.bmp" />
-    <Content Include="Resources\DockIndicator_PanelFill.bmp" />
-    <Content Include="Resources\DockIndicator_PanelFill_Active.bmp" />
-    <Content Include="Resources\DockIndicator_PanelLeft.bmp" />
-    <Content Include="Resources\DockIndicator_PanelLeft_Active.bmp" />
-    <Content Include="Resources\DockIndicator_PanelRight.bmp" />
-    <Content Include="Resources\DockIndicator_PanelRight_Active.bmp" />
-    <Content Include="Resources\DockIndicator_PanelTop.bmp" />
-    <Content Include="Resources\DockIndicator_PanelTop_Active.bmp" />
-    <Content Include="Resources\DockPane_AutoHide.bmp" />
-    <Content Include="Resources\DockPane_Close.bmp" />
-    <Content Include="Resources\DockPane_Dock.bmp" />
-    <Content Include="Resources\DockPane_Option.bmp" />
-    <Content Include="Resources\DockPane_OptionOverflow.bmp" />
-    <Content Include="Resources\home.png" />
+    <None Include="Resources\DockIndicator_PaneDiamond_Bottom.bmp" />
+    <None Include="Resources\Dockindicator_PaneDiamond_Fill.bmp" />
+    <None Include="Resources\DockIndicator_PaneDiamond_Left.bmp" />
+    <None Include="Resources\DockIndicator_PaneDiamond_Right.bmp" />
+    <None Include="Resources\DockIndicator_PaneDiamond_Top.bmp" />
+    <None Include="Resources\DockIndicator_PanelBottom.bmp" />
+    <None Include="Resources\DockIndicator_PanelBottom_Active.bmp" />
+    <None Include="Resources\DockIndicator_PanelFill.bmp" />
+    <None Include="Resources\DockIndicator_PanelFill_Active.bmp" />
+    <None Include="Resources\DockIndicator_PanelLeft.bmp" />
+    <None Include="Resources\DockIndicator_PanelLeft_Active.bmp" />
+    <None Include="Resources\DockIndicator_PanelRight.bmp" />
+    <None Include="Resources\DockIndicator_PanelRight_Active.bmp" />
+    <None Include="Resources\DockIndicator_PanelTop.bmp" />
+    <None Include="Resources\DockIndicator_PanelTop_Active.bmp" />
+    <None Include="Resources\DockPane_AutoHide.bmp" />
+    <None Include="Resources\DockPane_Close.bmp" />
+    <None Include="Resources\DockPane_Dock.bmp" />
+    <None Include="Resources\DockPane_Option.bmp" />
+    <None Include="Resources\DockPane_OptionOverflow.bmp" />
+    <None Include="Resources\Thumbs.db" />
+    <None Include="Resources\DockIndicator_PaneDiamond.bmp" />
+    <None Include="Resources\DockIndicator_PaneDiamond_HotspotIndex.bmp" />
+    <None Include="Resources\DockIndicator_PaneDiamond_Hotspot.bmp" />
+    <None Include="Resources\home.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

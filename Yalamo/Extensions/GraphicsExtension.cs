@@ -3,9 +3,10 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 
-namespace Yalamo.Core
+namespace Yalamo.Extensions
 {
-    static class GraphicsExtension
+
+    public static class GraphicsExtension
     {
         private static GraphicsPath GenerateRoundedRectangle(
                 this Graphics graphics,
