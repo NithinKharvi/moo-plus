@@ -112,6 +112,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
             this.PbxBottom.SuspendLayout();
             this.Preferencetab.SuspendLayout();
             this.appearancetab.SuspendLayout();
@@ -140,6 +141,7 @@
             // 
             // PbxBottom
             // 
+            this.PbxBottom.Controls.Add(this.button12);
             this.PbxBottom.Controls.Add(this.SaveBt);
             this.PbxBottom.Controls.Add(this.Cancel);
             this.PbxBottom.Location = new System.Drawing.Point(0, 343);
@@ -979,6 +981,15 @@
             this.label14.TabIndex = 12;
             this.label14.Text = "C#.NET :";
             // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(251, 14);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 17;
+            this.button12.Text = "button12";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
             // PreferenceDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 14F);
@@ -1115,5 +1126,6 @@
         private System.Windows.Forms.TextBox ilasmtool;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button button12;
     }
 }
